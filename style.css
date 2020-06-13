@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+
+}
+
+.header {
+
+    text-align: center;
+    color: #333;
+
+}
+
+.header img {
+    height: 90px;
+    width: 250px;
+    padding: 10px;
+}
+
+hr {
+    border: 1px solid rgb(223, 219, 228);
+    display: block;
+    margin-top: 10px;
+
+}
+
+.mission {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.7rem;
+
+}
+
+.mission p {
+    width: 40%;
+    font-weight: bold;
+    margin: auto;
+    padding: 30px 0;
+
+}
+
+.pic {
+    overflow: hidden;
+}
+
+.pic img {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+    transition: .3s;
+}
+
+.pic img:hover {
+    transform: scale(1.1);
+
+}
+
+.one {
+    width: 20%;
+}
+
+.two {
+    color: rgb(141, 141, 141);
+    padding: 10px 0;
+}
+
+.footer {
+    background: #4caf50;
+    color: #fff;
+    height: 250px;
+    display: flex;
+    align-items: center;
+
+    font-size: 2.5rem;
+
+}
+
+.footer p {
+    width: 50%;
+    margin: auto;
+
+    text-align: center;
+
+
+}
+
+.galary {
+    height: 340px;
+
+    background: #f3f3f3;
+}
+
+.galary .title {
+    background: #f3f2e8;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px 0;
+
+}
+
+.galary .img {
+    height: 250px;
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+.galary .img img {
+    height: 100%;
+    width: 100%;
+    box-shadow: 3px 3px 3px rgb(70, 64, 64);
+    border-radius: 5px;
+    transition: .3s;
+
+}
+
+.galary .img img:hover {
+    transform: scale(.9);
+}
+
+.galary .all {
+
+    background: #f44336;
+
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    background: #f44336;
+    padding: 20px 0;
+}
